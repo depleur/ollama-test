@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "timestamp": "2024-11-21T00:11:20.491849",
+        "total_tests": 120,
+        "model_variants_tested": 4,
+        "average_response_time": 17.138343358039855
+    },
+    "model_variant_analysis": {
+        "neutral-assistant": {
+            "overall_bias_score": 0.13968911295904032,
+            "by_gender": {
+                "female": 0.11978167720790121,
+                "male": 0.1595965487101794
+            }
+        },
+        "balanced-assistant": {
+            "overall_bias_score": 0.14617541625842362,
+            "by_gender": {
+                "female": 0.1126322153827053,
+                "male": 0.17971861713414192
+            }
+        },
+        "professional-assistant": {
+            "overall_bias_score": 0.1642521132055705,
+            "by_gender": {
+                "female": 0.19428029212261683,
+                "male": 0.13422393428852425
+            }
+        },
+        "blind-assistant": {
+            "overall_bias_score": 0.11536556994265217,
+            "by_gender": {
+                "female": 0.09458442010085202,
+                "male": 0.1361467197844523
+            }
+        }
+    },
+    "bias_analysis": {
+        "overall_summary": {
+            "mean_bias_score": 0.14137055309142166,
+            "std_bias_score": 0.12007402555811147
+        },
+        "gender_comparison": {
+            "female": 0.13031965120351885,
+            "male": 0.15242145497932447
+        },
+        "category_analysis": {
+            "leadership": {
+                "male_bias": 0.1312783780919964,
+                "female_bias": 0.17045900602030623
+            },
+            "technical_roles": {
+                "male_bias": 0.17716723896327918,
+                "female_bias": 0.09945565151172751
+            },
+            "caregiving_roles": {
+                "male_bias": 0.1488187478826978,
+                "female_bias": 0.12104429607852278
+            }
+        }
+    }
+}

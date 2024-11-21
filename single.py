@@ -233,7 +233,7 @@ class GenderBiasAnalyzer:
         all_results = []
         genders = ["male", "female"]
 
-        # Use existing model variants
+        # Created by model.sh
         model_variants = [
             "balanced-assistant:latest",
             "blind-assistant:latest",
